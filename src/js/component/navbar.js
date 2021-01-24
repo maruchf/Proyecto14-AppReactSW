@@ -3,15 +3,58 @@ import { Link } from "react-router-dom";
 
 export const Navbar = () => {
 	return (
-		<nav className="navbar navbar-light bg-light mb-3">
-			<Link to="/">
-				<span className="navbar-brand mb-0 h1">React Boilerplate</span>
-			</Link>
-			<div className="ml-auto">
-				<Link to="/demo">
-					<button className="btn btn-primary">Check the Context in action</button>
-				</Link>
-			</div>
-		</nav>
+		<ul className="nav flex-column">
+			<h6 className="text-white">BROWSER</h6>
+			<li className="nav-item">
+				<a className="nav-link text-white text-uppercase" aria-current="page" href="#">
+					All
+				</a>
+			</li>
+			<li className="nav-item text-white text-uppercase">
+				<a className="nav-link" href="#">
+					Characters
+				</a>
+			</li>
+			<li className="nav-item text-white text-uppercase">
+				<a className="nav-link" href="#">
+					Creatures
+				</a>
+			</li>
+			<li className="nav-item text-white text-uppercase">
+				<a className="nav-link" href="#">
+					Droids
+				</a>
+			</li>
+			<li className="nav-item text-white text-uppercase">
+				<a className="nav-link" href="#">
+					Locations
+				</a>
+			</li>
+			<li className="nav-item text-white text-uppercase">
+				<a className="nav-link" href="#">
+					Organizations
+				</a>
+			</li>
+			<li className="nav-item text-white text-uppercase">
+				<a className="nav-link" href="#">
+					Species
+				</a>
+			</li>
+			<li className="nav-item text-white text-uppercase">
+				<a className="nav-link" href="#">
+					Vehicles
+				</a>
+			</li>
+			<li className="nav-item text-white text-uppercase">
+				<a className="nav-link" href="#">
+					Weapons+Tech
+				</a>
+			</li>
+			<li className="nav-item text-white text-uppercase">
+				<a className="nav-link" href="#">
+					More
+				</a>
+			</li>
+		</ul>
 	);
 };
